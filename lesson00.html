@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>变量作用域机制</title>
+	</head>
+	<body>
+		ABCD
+		<script>
+ 			var num = 1;
+function foo() {
+
+	var num = 2;
+	function bar(){
+
+		var num = 3;
+		function col(){
+			num = 4;
+			alert(num+"--_执行col内部");
+		}
+		col();
+		alert(num+"--_执行完col内部");
+	}
+	bar();
+	alert(num+"--_执行完bar内部");
+}
+foo();
+alert(num+"--_执行完fool内部");
+		</script>
+		<!-- <link rel="stylesheet"  type="script/javascript" href="a01.js"> -->
+	</body>
+</html>

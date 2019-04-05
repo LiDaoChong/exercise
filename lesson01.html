@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>CALL方法实现继承</title>
+</head>
+<body>
+	<script>
+		function person() {
+			this.name = "张三";
+			this.say = function (){
+				alert(this.name);
+			}
+		}
+
+		function student (){
+			this.name = "李四";
+		}
+
+		var ren = new person();
+		var zhangsan = new student ();
+
+		ren.say.call(zhangsan);
+		person.call(zhangsan);
+		zhangsan.say();
+	</script>
+
+	执行完！
+</body>
+</html>
