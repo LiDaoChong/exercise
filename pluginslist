@@ -1,0 +1,284 @@
+
+声明 :以下sublime 及 相关插件 内容仅为本人搜集整理 自己学习用途,不允许任何第三方盗用传播等其他行为，否则，造成一切后果由相关人员自行承担责任。
+
+
+作为一个开发者你不可能没听说过SublimeText。不过你没听说过也没关系，下面让你明白。 SublimeText是一款非常精巧的文本编辑器，适合编写代码、做笔记、写文章。它用户界面十分整洁，功能非同凡响，性能快得出奇。这些非常棒的特性包括任意跳转（Goto Anything）、多重选择（multiple selections）、指令面板（command palette）、免打扰模式（distraction free mode）、分区编辑（split editing）、快速项目切换（instant project switch），你还可以随意地自定义更多功能。还有，这款编辑器支持Mac、Windows和Linux平台。但这些并不是本文所要讨论的内容。
+
+SublimeText本身已经非常强大，但是更棒的是有一长串的插件支持它，给它带来更强大的功能，这就是本文要讨论的内容。不多废话，让我们看看20个强大的SublimeText插件。如果你已经在使用他们，请告诉我们，并告诉我们你认为其中那款最出色。像往常一样，你的意见也很重要。
+
+FTPSync
+		默认情况下SublimeText不具备FTP的功能，如果你正在寻找能在您的SublimeText应用程序中使用的免费和易用的FTP工具，你可以考虑FTPSync。这是一个非常简单的FTP同步工具，它可以控制上传目标的多重命名
+SASS Build
+		SASS Build 是一个编写CSS的预处理器。这个特别的插件将帮助你妥善构建包括压缩选项在内的SASS文件。一旦你安装了这个插件，你可以很容易地通过按Ctrl+ B（MAC系统是 Command +B）来启动它。
+PackageResourceViewer
+		通过这个特殊的插件，会给你查看和编辑SublimeText附带的不同的包带来很多方便。您也可以提取任何给定的包。这一行动将其复制到用户文件夹，以便您可以安全地对其进行编辑。
+Git 	
+		虽然名字看上去并不友好，但作为开发者的你肯定一眼就能明白它是干什么的。这个插件会将Git整合进你的SublimeText，使的你可以在SublimeText中运行Git命令，包括添加，提交文件，查看日志，文件注解以及其它Git功能。
+GitGutter 更好的帮助开发者查看文件之前的改动和差异
+
+All Autocomplete
+
+			Sublime Text 默认的 Autocomplete 功能只考虑当前的文件，而 AllAutocomplete 插件会搜索所有打开的文件来寻找匹配的提示词。
+
+MarkdownPreview
+
+				虽然许多开发人员更喜欢在云端（GitHub Gists，StackEdit，Markable）创建 Markdown 文件 。不过另外一些喜欢在本地编写 Markdown 文件的开发者， MarkdownPreview 很有用，可以预览文件，还有颜色高亮显示。
+
+
+MarkDown Editing
+				SublimeText不仅仅是能够查看和编辑 Markdown 文件，但它会视它们为格式很糟糕的纯文本。这个插件通过适当的颜色高亮和其它功能来更好地完成这些任务。
+
+安装Markdown Editing和MarkdownLivePreview
+
+				Markdown Editing是编辑Markdown的插件，MarkdownLivePreview通过名称我们也可以猜到，它是用于即时浏览Markdown文本效果的。
+				
+				安装方法和安装Package Control一样，搜索以上两个插件的名称并进行安装即可。
+				
+				简单设置
+				
+				要想在我们编写Markdown文件时能够即是看到具体的效果，我们需要对MarkdownLivePreview进行简单的设置，具体设置如下：
+				
+				Preferences → Package Settings → MarkdownLivePreview → Setting，打开后将左边default的设置代码复制到右边User栏，找到"markdown_live_preview_on_open": 				false,把false改成true，最后保存设置完毕。				
+				
+				使用方法
+				
+				打Sublime Text并新建一个文件，在其右下角选择编辑方式为Markdown，随便输入一些Markdown文本并将其保存为.md文件，那此时会自动弹出Markdown文本编辑框（左）和预				览框（右），至此安装配置完毕，接下来您可以使用Markdown去装逼啦！！！。				
+				--------------------- 				
+
+
+
+
+Snippets
+Snippets，你一定已经听说了，可以帮你快速书写代码。但它不是像上面提到的插件那样使用缩写，它是重用代码块以节省您的时间。你甚至可以创建自己的代码段，这完全取决于你自己。
+
+
+其他语法支持
+如果有一个SublimeText本身所带语言包不包含的语言，它就无法显示适当的语法高亮。这些语言包括LESS，Sass，SCSS，Styls和Jade（或其它）。如果您正在使用这些语言，你可能要安装它们的语法插件。
+
+LESS  Sass  SCSS  Styls  Jade
+
+
+处理乱码请点击安装：
+
+ConvertToUTF8或者GBKSupport，还有gbk4subl这款能让sublime text 3支持GBK编码的插件。
+
+ConvertToUTF8是用来把GB2312和GBK文件转换成UTF8编码的，如果有特殊需求——编辑之后必须以GB2312和GBK编码保存,哪就安装gbksupport,作为一个程序员，使用UTF-8编码来保存是一个好习惯，尽量不要使用GB2312和GBK编码来写代码。
+
+注很多人安装了ConvertToUTF8还是乱码，哪是我们还得再装一个插件就可以解决,Codecs33
+--------------------- 
+
+CanIUse
+			如果您想检查浏览器是否支持你包括在你的代码中的CSS和HTML元素，那么这是你需要的插件。所有您需要做的就是选择有疑问的元素，插件将为你做其余的事情。
+
+AdvancedNewFile
+A File Icon
+Alignment
+AutoFileName
+
+Auto Close HTML Tags
+BracketHighlighter 并集成了ColorPicker
+BufferScroll
+	 插件可以保存代码折叠的状态，在Sublime中，ctrl+shift+[是折叠代码的快捷键，ctrl+shift+]是打开折叠代码的快捷键，但是每次重新打开Sublime，原来折叠代码的设置都不会保留。 
+   											
+	 BufferScroll似乎不能直接安装，可以下载git project，在路径Sublime Text 3x64\Data\Packages下新建一个名为BufferScroll的文件夹。把git下载的内容解压缩到这个文件下。 
+
+
+		  后面可能还要点什么settings-default记不清了，这样折叠的代码就可以保留了。 
+  首选项-插件设置-BufferScroll-SettingDefault内容复制到UserSetting 
+  折叠快捷键 CTRL+SHIFT+[ 折叠，]是展开 
+  参看: 
+	1、 https://github.com/titoBouzout/BufferScroll 
+	2、 https://www.kancloud.cn/ken678/sublime/314384
+---------------------
+
+sublime text 3 中 安装sass插件 以及配置和监视
+							sublime text 3 中 安装sass插件 以及配置和监视
+					首先得在电脑上安装sass 
+					方法推荐1：https://blog.csdn.net/u014182411/article/details/77319639 
+					方法推荐2：https://www.sass.hk/install/
+					
+					下面重点说说sublime中安装sass的问题
+					
+					快捷键ctrl+shift+p，并输入install，选择第一个Install 					Pacage，在命令栏中输入”Sass”然后回车，然后在弹出的列表					中选择Sass插件，通过鼠标单击或者回车进行安装，可通过左下角状态栏查看安装结果
+					
+					同样的方法，在命令栏中输入”SassBuild”然后回车，然后在弹出的列表中选择SassBuild插件，通过鼠标单击或者回车进行安装，可通过左下角状态栏查看安装结果
+					
+					查看安装的插件，按ctrl+shift+p，输入package，选择list packages，就看到了我们安装的插件列表。如果你看到了sass和sass 					bulid就说明插件安装成功了。安装成功后一定要重启sublime，不要在这里被坑。					
+					
+					测试 
+					新建一个后缀为 .scss 的文件，简单内容如下
+					
+					$temp:red;
+					.class{
+					    color:$temp;
+					}
+					
+					
+					然后 control + B ，就会在默认的目录生成对应的.css文件和.css.map文件 
+					提示：[Finished in 1.0s]
+					
+					这样就完了吗？并没有结束。
+					
+					一个优秀的程序员都会很好的管理和分类这些文件，所以我们并不希望编译的时候文件生成在默认位置，而应该是我们指定的位置。
+					
+					一个很有效率的程序员也不会每次更改 .scss文件都去生成一次，而是监视文件，让其自动生成。
+					
+					所以我们需要去设置配置文件….
+					
+					sass插件的配置 
+					操作步骤： 
+					（1）Tools(工具) –> build system(编译系统) –> new build system(新建编译系统) … 会生成一个文件，把下面的内容复制到文件中覆盖里面的内容
+					
+					{  
+					    "cmd": ["sass", "--watch", "G:\\scss:G:\\css","--style","compressed"],
+					    "selector": "source.sass, source.scss",  
+					    "line_regex": "Line ([0-9]+):",  
+					
+					    "osx":  
+					    {  
+					        "path": "/usr/local/bin:$PATH"  
+					    },  
+					
+					    "windows":  
+					    {  
+					        "shell": "true"  
+					    }
+					}
+					
+					G:\scss:G:\css，换成自己指定路径，例如你的scss文件放在D盘scss文件夹下面，css文件放在E盘css文件夹下面，那就改成 D:\scss:E:\css 双斜杠有一个是转义。
+					
+					关于”cmd”里面的参数设置可以去看看这个https://www.sass.hk/install/ 
+					主要修改”cmd”参数里面的内容，其它都不用修改，符合绝大多数场景的需求的。
+					
+					（2）然后ctrl+s保存到SubLime –> Packages –> MySass 文件夹中，并把文件命名为MySass。 没有文件夹的就新建一个文件夹。
+					
+					（3）回到sublime，点击Tools(工具) –> Build system(编译系统) –> MySass。
+					
+					（4）然后你就可以开始愉快的进行sass开发了。打开你想要编译的.scss文件，ctrl+B. 就会开启监视（提示>>> Sass is watching for changes. Press Ctrl-C to 					stop.）只要你更改了你指定路劲下的.scss文件，都会自动编译到你指定的css文件夹里。当关闭sublime的时候就会关闭监视。					
+					--------------------- 					
+					
+--------------------- 
+
+Ctags				函数跳转，我的电脑上是Alt+点击 函数名称，会跳转到相应的函数
+CSS3
+ CSS3前缀补充插件----Autoprefixer
+CSS Format
+CSScomb --给CSS属性进行排序的格式化插件
+CSS Comments  很好的CSS注释助手
+Compact Expand CSS Command		
+					功能说明：使CSS属性展开及收缩，格式化CSS代码。
+ColorHighlighter
+ConvertToUTF8
+Doc​Blockr
+Emmet
+FileDiffs
+
+HTMLBeautify
+html5
+HTML-CSS-JS Prettify
+JavaScript Next			JavaScript Next 提供了比默认JavaScript 						Package更好的语法高亮，而且他完美支持ECMAScript 						6。 建议完全使用 JavaScript 										Next代替JavaScriptPackage。
+javascript-API-Completions
+jQuery
+JSFormat
+LESS
+LiveReload		调试网页实时自动更新。
+Nodejs
+SublimeLinter 提供js和css的语法检测！检测的标准是可以根据用户自定义的方式来执行！一个支持lint语法的插件，
+					可以高亮linter认为有错误的代码行，也支持高亮一些特别的注释，比如“TODO”，这样就可以被快速定位。（IntelliJ IDEA的TODO功能很赞，这个插件虽然比不上，但是也够用了吧）
+SideBarEnhancements
+					安装此插件，点击工具栏的preferences > package setting > side bar > Key Building-User，键入以下代码，这里设置按Ctrl+Shift+C复制文件路径，按F1~F5分别在firefox，chrome，IE，safari，opera浏览器预览效果，当然你也可以自己定义喜欢的快捷键，最后注意代码中的浏览器路径要以自己电脑里的文件路径为准。
+
+					[
+					    { "keys": ["ctrl+shift+c"], "command": "copy_path" },
+					    //firefox
+					    { "keys": ["f1"], "command": "side_bar_files_open_with",
+					             "args": {
+					                "paths": [],
+					                "application": "C:\\software\\Browser\\Mozilla Firefox\\firefox.exe",
+					                "extensions":".*" //匹配任何文件类型
+					            }
+					    },
+					    //chrome
+					    { "keys": ["f2"], "command": "side_bar_files_open_with",
+					            "args": {
+					                "paths": [],
+					                "application": "C:\\Users\\Mr.DenGo\\AppData\\Local\\Google\\Chrome\\Application\\chrome.exe",
+					                "extensions":".*"
+					            }
+					     },
+					    //ie
+					     { "keys": ["f3"], "command": "side_bar_files_open_with",
+					             "args": {
+					                "paths": [],
+					                "application": "C:\\Program Files\\Internet Explorer\\iexplore.exe",
+					                "extensions":".*"
+					            }
+					    },
+					    //safari
+					    { "keys": ["f4"], "command": "side_bar_files_open_with",
+					            "args": {
+					                "paths": [],
+					                "application": "C:\\software\\Browser\\Safari\\safari.exe",
+					                "extensions":".*"
+					            }
+					     },
+					     //opera
+					     { "keys": ["f5"], "command": "side_bar_files_open_with",
+					             "args": {
+					                "paths": [],
+					                "application": "C:\\software\\Browser\\opera\\opera.exe",
+					                "extensions":".*"
+					            }
+					    }
+					]            
+--------------------- 
+
+sublime-less2css
+SublimeTmpl
+SublimeCodeIntel
+View in Browser		在浏览器中可以像dreamweaver 那样按下F12的时候在浏览器中浏览。
+Trmmer	自动删除这些不必要的空格
+Terminal  这个插件可以让你在Sublime中直接使用终端打开你的项目文件夹，并支持使用快捷键。
+
+TortoiseSVN
+Theme-Soda
+Theme-Flatland
+Theme-Nexus
+
+拥有不同的主题可以触发创意和想法，你可能想使用这些插件来实现不同的主题，带来更好的和令人兴奋的前景。
+SpaceGray
+
+Centurion
+
+----------------------------------------------------------------
+快捷键的使用——让你键步如飞
+Alt+F3
+选中文本后按下快捷键，即可一次性选择全部的相同文本（如变量名、函数名等）进行同时编辑。
+
+Ctrl+c、Ctrl+v
+光标停留在某一行时，按下Ctrl+c即可复制一整行，然后Ctrl+v就粘贴到下一行了。
+----------------------------------------------------------------
+
+其他使用技巧-----2017年01月12日 16:47:07 Paranoidyang
+1、sublime中侧边栏点击某个文件时，注意是单击预览，双击打开，单击时，打开的文件上方标题是斜体的，此时如果再点击另一个文件，这个文件就会被顶替掉，而双击某个文件时，标题就不是斜体的，并且再打开另一个文件也不会顶替它，而是再开一个标签页。
+
+2、将Sublime Text3添加到右键菜单中，参考下面链接：https://my.oschina.net/adairs/blog/466777#comment-list 
+3、我已经将包含所有插件及配置信息的Sublime Text 3文件夹上传到了https://github.com/Paranoidyang/sublimeText3，大家可以下载后替换掉自己的，这样就不用一个个安装了（通过Preferences-》Browse Packages可以找到该文件夹位置）。
+--------------------- 
+nettus+上面的该系列讲座有30讲，非常细致，建议观看。
+
+补充：liveReload+divvy，soda主题+phix配色方案
+ST2如果实现实时预览很头疼。我找到了一个很完美的玩法。
+
+1、ST2中安装liveReload。安装后找到这个包的配置文件，可以进行一些配置。
+
+2、浏览器中安装liveReload的扩展，现代浏览器都有对应版本。扩展安装成功后，用的时候点击一下就可以了。
+
+3、安装divvy(windows/mac都有版本，也都有破解方法)，这个东西非常好用，你可以去官方FQ看下那个几分钟的小片子，几分钟可能改变一生喔 ；-)
+
+4、这样，在ST2中写完后，用sidebarEnhance一键呼出浏览器（我配置成F12），然后用divvy调整两个窗口的位置大小，就可以慢用liveReload带给我们实时修改实时预览的快感了。
+
+ 
+
+另外，推荐一个配色方案，phix，还有一个主题soda，soda的dark就是为了黑色系配色方案而生的吧。
+
