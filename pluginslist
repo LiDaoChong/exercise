@@ -12,6 +12,7 @@ SASS Build
 		SASS Build 是一个编写CSS的预处理器。这个特别的插件将帮助你妥善构建包括压缩选项在内的SASS文件。一旦你安装了这个插件，你可以很容易地通过按Ctrl+ B（MAC系统是 Command +B）来启动它。
 PackageResourceViewer
 		通过这个特殊的插件，会给你查看和编辑SublimeText附带的不同的包带来很多方便。您也可以提取任何给定的包。这一行动将其复制到用户文件夹，以便您可以安全地对其进行编辑。
+GitSavvy
 Git 	
 		虽然名字看上去并不友好，但作为开发者的你肯定一眼就能明白它是干什么的。这个插件会将Git整合进你的SublimeText，使的你可以在SublimeText中运行Git命令，包括添加，提交文件，查看日志，文件注解以及其它Git功能。
 GitGutter 更好的帮助开发者查看文件之前的改动和差异
@@ -232,24 +233,24 @@ SideBarEnhancements
 					    }
 					]            
 --------------------- 
-
+PlainTasks—TODO LIST工具
 sublime-less2css
 SublimeTmpl
 SublimeCodeIntel
-View in Browser		在浏览器中可以像dreamweaver 那样按下F12的时候在浏览器中浏览。
-Trmmer	自动删除这些不必要的空格
+View in Browser 和 Browser Refresh 	在浏览器中可以像dreamweaver 那样按下F12的时候在浏览器中浏览。
+Trimmer	自动删除这些不必要的空格
 Terminal  这个插件可以让你在Sublime中直接使用终端打开你的项目文件夹，并支持使用快捷键。
+HTTP Requester 
 
 TortoiseSVN
 Theme-Soda
 Theme-Flatland
 Theme-Nexus
-
-拥有不同的主题可以触发创意和想法，你可能想使用这些插件来实现不同的主题，带来更好的和令人兴奋的前景。
-SpaceGray
-
 Centurion
+SpaceGray
+拥有不同的主题可以触发创意和想法，你可能想使用这些插件来实现不同的主题，带来更好的和令人兴奋的前景。
 
+Nettuts+ fetch  能够非常方便的管理一些开源框架 
 ----------------------------------------------------------------
 快捷键的使用——让你键步如飞
 Alt+F3
